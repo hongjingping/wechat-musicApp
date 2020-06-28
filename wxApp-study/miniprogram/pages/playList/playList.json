@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "h-playlist": "/components/playlist/playlist"
+  }
+}
