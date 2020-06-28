@@ -85,10 +85,11 @@ Page({
       name: 'music', // 云函数名称
       data: {
         start: this.data.playlist.length,
-        count: MAX_LIMIT
+        count: MAX_LIMIT,
+        $url: 'playlist'
       }
     }).then((res) => {
-      console.log(res)
+      // console.log(res)
       this.setData({
         playlist: this.data.playlist.concat(res.result.data)
       })

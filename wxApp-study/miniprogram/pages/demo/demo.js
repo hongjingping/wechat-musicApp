@@ -53,6 +53,26 @@ Page({
       arrObj: this.data.arrObj
     })
   },
+  getMusicInfo: function () {
+    wx.cloud.callFunction({
+      name: 'tcbRouter',
+      data: {
+        $url: 'music'
+      }
+    }).then((res) => {
+      console.log(res)
+    })
+  },
+  getMovieInfo: function () {
+    wx.cloud.callFunction({
+      name: 'tcbRouter',
+      data: {
+        $url: 'movie'
+      }
+    }).then((res) => {
+      console.log(res)
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */
