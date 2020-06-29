@@ -21,8 +21,16 @@
 
 }
 .musiclist-container .musiclist-info .musiclist-name .musiclist-alia {
-  font-size: 28rpx;
+  color: #888;
+  /* font-size: 28rpx; */
 }
 .musiclist-container .musiclist-info .musiclist-single {
-  font-size: 20rpx;
+  font-size: 24rpx;
+  color: #888;
+}
+.playing .musiclist-index, .playing .musiclist-info{
+  color: #d43c33;
+}
+.playing text{
+  color: #d43c33;
 }
