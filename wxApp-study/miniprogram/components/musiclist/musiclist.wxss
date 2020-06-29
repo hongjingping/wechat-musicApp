@@ -28,9 +28,9 @@
   font-size: 24rpx;
   color: #888;
 }
-.playing .musiclist-index, .playing .musiclist-info{
+.playing .musiclist-index{
   color: #d43c33;
 }
-.playing text{
+.playing .musiclist-info{
   color: #d43c33;
 }
