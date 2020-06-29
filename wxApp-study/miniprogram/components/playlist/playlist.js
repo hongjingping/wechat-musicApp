@@ -29,6 +29,13 @@ Component({
    * 组件的方法列表
    */
   methods: {
+    // 跳转歌单列表
+    goToMusiclist () {
+      wx.navigateTo({
+        url: `../../pages/musiclist/musiclist?playlistId=${this.properties.playlist.id}`,
+      })
+    },
+
     // 处理数字
     _tranNumber(num, point){
       let numStr = num.toString().split('.')[0]
