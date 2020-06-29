@@ -7,3 +7,9 @@
     <image class="player-img"></image>
   </view>
 </view>
+
+<view class="control">
+  <text class="iconfont icon-shangyishoushangyige"></text>
+  <text class="iconfont icon-arrow-"></text>
+  <text class="iconfont icon-xiayigexiayishou"></text>
+</view>

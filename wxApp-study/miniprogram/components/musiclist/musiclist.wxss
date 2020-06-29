@@ -31,6 +31,9 @@
 .playing .musiclist-index{
   color: #d43c33;
 }
-.playing .musiclist-info{
+.playing .musiclist-info .musiclist-name{
+  color: #d43c33;
+}
+.playing .musiclist-info .musiclist-single{
   color: #d43c33;
 }
